@@ -1791,12 +1791,24 @@ font-size: 16px;
 
 
 
+.img-hover-zoom{
+    overflow: hidden;
+}
 
 
 
 
-
-
+.img-hover-zoom img {
+    transition: transform .5s, filter 1.5s ease-in-out;
+    /* filter: grayscale(100%); */
+  
+  }
+  
+  /* The Transformation */
+  .img-hover-zoom:hover img {
+    /* filter: grayscale(0.1); */
+    transform: scale(1.1);
+  }
 
 
 
