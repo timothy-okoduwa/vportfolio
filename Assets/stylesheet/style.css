@@ -990,6 +990,13 @@ margin-top: 10px;
     align-items: center;
 }
 
+.obey{
+    
+}
+.obey2{
+
+}
+
 
 
 
@@ -1823,3 +1830,4 @@ font-size: 16px;
   .img-hover-zoom:hover img {
     transform: scale(1.25) translateY(-30%);
   } */
+
