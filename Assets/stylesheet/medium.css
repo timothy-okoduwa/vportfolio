@@ -1,39 +1,50 @@
 
   div.sk_medium_publication_feed_grid-content{
-    background-color: rgb(255, 255, 255) ;
-    box-shadow: none ;
-   overflow: hidden ;
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: none !important;
+   overflow: hidden !important;
    
-    /* height: 100% ; */
+    /* height: 100% !important; */
   
 }
 img.sk-post-image{
-width: 100% ;
-height: 60%  ;
-object-fit: cover ;
+width: 100% !important;
+height: 60% !important ;
+object-fit: cover !important;
 }
 div.medium_publication_post_title{
-    font-family: 'DM Sans' ;
-    text-transform: uppercase ;
-    padding-top: 20px ;
-    font-weight: 500 ;
-    font-size: 18 ;
+    font-family: 'DM Sans' !important;
+    text-transform: uppercase !important;
+    padding-top: 20px !important;
+    font-weight: 500 !important;
+    font-size: 18 !important;
 }
 a.sk_creator_link{
-    color: #565656 ;
+    color: #565656 !important;
 }
 div.medium_publication_post_creator{
-    font-family: 'DM Sans' ;
-    text-transform: uppercase ;
-    color: #565656 ;
+    font-family: 'DM Sans' !important;
+    text-transform: uppercase !important;
+    color: #565656 !important;
 }
 h2{
-    font-size: 30px ;
-    text-transform: uppercase ;
-    font-family: 'DM Sans' ;
+    font-size: 30px !important;
+    text-transform: uppercase !important;
+    font-family: 'DM Sans' !important;
     padding: 5% 0%;
     text-align: center  ;
 }
 p{
-    font-family: 'DM Sans' ;
+    font-family: 'DM Sans' !important;
+    font-size: 18px !important;
+    padding: 15px !important;
+}
+.sk_medium_publication_feed_white_pop_up {
+    position: relative !important;
+    background: rgb(255, 255, 255) !important;
+    padding: 2px !important;
+    width: auto !important;
+    max-width: 75% !important;
+    margin: 50px auto 20px !important;
+    border-radius: 8px !important;
 }
