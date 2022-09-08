@@ -51,3 +51,14 @@ p{
 .sk-read-more-btn{
     display: none !important;
 }
+@media screen and (max-width:768px){
+    .sk_medium_publication_feed_white_pop_up {
+        position: relative !important;
+        background: rgb(255, 255, 255) !important;
+        padding: 2px !important;
+        width: auto !important;
+        max-width: 100% !important;
+        margin: 50px auto 20px !important;
+        border-radius: 8px !important;
+    }
+}
