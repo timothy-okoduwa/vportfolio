@@ -73,6 +73,45 @@
     margin-top: 20px;
     /* margin-left: 20px; */
     }
+    .norms {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: start;
+        padding-top: 50px;
+        cursor: pointer;
+    }
+    .trusted {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        text-align: center;
+        color: #121212;
+    }
+    .dist {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        color: #121212;
+        margin-top: 15px;
+    }
+    .driven {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #565656;
+    }
+    .boxtalks {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+    }
     .timed{
   
         display: flex;
