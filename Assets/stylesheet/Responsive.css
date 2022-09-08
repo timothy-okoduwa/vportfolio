@@ -538,3 +538,8 @@ margin-right: -90px;
       
     }
 }
+@media screen and (min-width: 1024px) {
+    .impactful{
+        margin-top: 140px;
+    }
+}
