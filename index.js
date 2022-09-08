@@ -67,53 +67,79 @@ cursorModifiers.forEach((curosrModifier) => {
 
 
 
-function sendemail() {
-  var userid = "opXca3zh-s4K59SO1"
-  emailjs.init(userid);
-  var phonenumber = document.getElementById("phonenumber").value;
-  var thename = document.getElementById('thename').value;
-  var themail = document.getElementById('themail').value;
-  var themsg = document.getElementById('themsg').value;
-  var validmail = /^w+([.-]?w+)*@w+([.-]?w+)*(.w{2,3})+$/;
+// function sendemail() {
+//   var userid = "opXca3zh-s4K59SO1"
+//   emailjs.init(userid);
+//   var phonenumber = document.getElementById("phonenumber").value;
+//   var thename = document.getElementById('thename').value;
+//   var themail = document.getElementById('themail').value;
+//   var themsg = document.getElementById('themsg').value;
+//   var validmail = /^w+([.-]?w+)*@w+([.-]?w+)*(.w{2,3})+$/;
 
-  const form = document.getElementById('my_form');
+//   const form = document.getElementById('my_form');
 
-form.addEventListener('submit', function handleSubmit(event) {
-event.preventDefault();
+// form.addEventListener('submit', function handleSubmit(event) {
+// event.preventDefault();
 
-form.reset();
-});
+// form.reset();
+// });
 
 
 
-  if (thename == "") {
+//   if (thename == "") {
   
-    document.getElementById('errorname').innerHTML="Please enter a valid Name";  
-    setTimeout(() => {
-      const box = document.getElementById('errorname');
-      box.style.opacity = 0;
-    }, 10000);
-  }
-  else if (themail == "" || themail.match(!validmail)) {
+//     document.getElementById('errorname').innerHTML="Please enter a valid Name";  
+//     setTimeout(() => {
+//       const box = document.getElementById('errorname');
+//       box.style.opacity = 0;
+//     }, 10000);
+//   }
+//   else if (themail == "" || themail.match(!validmail)) {
   
-  }
+//   }
 
-  else if (phonenumber == '' ) {
+//   else if (phonenumber == '' ) {
   
-  }
-  else {
-    var contactdetail = {
-      from_name: thename,
-      from_number:phonenumber,
-      from_email: themail,
-      message: themsg
-    };
+//   }
+//   else {
+//     var contactdetail = {
+//       from_name: thename,
+//       from_number:phonenumber,
+//       from_email: themail,
+//       message: themsg
+//     };
 
-    emailjs.send('service_8vyq8ok', 'template_w1laus3', contactdetail).then(function (res) {
-  alert('your mail has been recieved, our team will reach out to you 😉')
-    },
-      reason => {
-        alert("Error Occur");
-      })
-  }
-}
+//     emailjs.send('service_8vyq8ok', 'template_w1laus3', contactdetail).then(function (res) {
+//   alert('your mail has been recieved, our team will reach out to you 😉')
+//     },
+//       reason => {
+//         alert("Error Occur");
+//       })
+//   }
+// }
+
+
+
+
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(() => {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+
+
+
