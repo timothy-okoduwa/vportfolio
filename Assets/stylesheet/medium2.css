@@ -48,3 +48,6 @@ p{
     margin: 50px auto 20px !important;
     border-radius: 8px !important;
 }
+.sk-read-more-btn{
+    display: none !important;
+}
