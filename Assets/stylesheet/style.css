@@ -508,7 +508,14 @@ font-size: 24px;
 
 }
 
-
+.teams{
+    font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+text-align: center;
+color: #121212;
+}
 
 
 
@@ -826,7 +833,7 @@ margin-bottom: 20px;
 background-color: black;
 color: white;
 height: 320px;
-margin-top: 300px;
+margin-top: 140px;
 width: 100%;
 }
 .water{
@@ -863,7 +870,7 @@ font-size: 20px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     
 margin-top: 20px;
 width: 310px;

@@ -62,8 +62,16 @@
 }
 }
 @media screen and (max-width:768px){
-    .sk_medium_publication_feed_whole_article{
-        background-color: red;
+    .Vteam{
+        display: none;
+    }
+    .teams{
+        font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #121212;
     }
     .more{
         font-family: 'DM Sans';
