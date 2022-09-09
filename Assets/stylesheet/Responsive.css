@@ -250,6 +250,19 @@
         }
 
     }
+
+    @media screen and (min-width:1366px) {
+        .smallGuy{
+    display: none;
+        }
+    }
+    @media screen and (max-width:1366px) {
+        .bossGuy{
+    display: none;
+        }
+    }
+
+
 @media screen and (max-width:1440px){
    
 
@@ -267,6 +280,7 @@
     }
 }
 @media screen and (max-width:1024px) {
+  
     .bigBoy{
         margin-top: 14px;
     }
